@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/la" name="caf" />
+  <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device trees -->
+  <project name="cupid-development/android_device_xiaomi_cupid" path="device/xiaomi/cupid" remote="github" revision="lineage-20" />
+  <project name="cupid-development/android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="github" revision="lineage-20" />
+
+  <!-- Repositories with changes for sm8450 -->
+  <project name="cupid-development/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
+
+  <!-- fwk-detect modules -->
+  <project name="platform/vendor/qcom-opensource/core-utils-sys" path="vendor/qcom/opensource/core-utils-sys" remote="clo" revision="refs/tags/LA.QSSI.13.0.r1-07500-qssi.0" />
+  <project name="platform/vendor/qcom-opensource/core-utils-vendor" path="vendor/qcom/opensource/core-utils-vendor" remote="clo" revision="refs/tags/LA.VENDOR.1.0.r1-18000-WAIPIO.QSSI13.0" />
+</manifest>
